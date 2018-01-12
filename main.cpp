@@ -88,8 +88,8 @@ int main(int argc, const char * argv[])
 	rotator.init(window);
 
 	// Get user input on grid parameters
-	int gridDimension = 100;
-	float gridSize = 0.5;
+	int gridDimension = 80;
+	float gridSize = 10;
 	float noiseScale = 0.1;
 	float isoValue = 0.55;
 	int cellGrid = 1; 

@@ -1,0 +1,35 @@
+Bygg först programmet genom att skriva "make" i en terminal som befinner sig i samma mapp som make-filen.
+
+Programmet kan sedan köras genom kommandot:
+
+./main A B C D E
+
+där de olika parametrarna A, B, C, D och E betyder följande:
+
+A - En siffra för att ange hur högupplöst (antal trianglar) en ruta ska vara. 50 eller 80 är en ganska rimlig storlek, 120 är på gränsen till vad min laptop klarar.
+
+B - Storleken på en ruta. 10 är en ganska lagom storlek.
+
+C - Aggresionen på bruset. 0.1 ger ett bra resultat, 0.2 lite brusigare och 0.05 lite lugnare.
+
+D - Anger hur stort rutnät av block som ska genereras. 1 är default.
+
+E - Ange 1 eller 0 för att slå på/av varierande detaljnivåer mellan block.
+
+Så ett typiskt körkommando kan se ut som följer:
+
+./main 80 10 0.1 7 1
+
+Men det går också att köra bara ./main så kommer defaul-värdena för varje variabel att användas.
+
+========= KONTROLLER =========
+
+Rotera genom att hålla in vänster musknapp och dra. Zooma in/ut med mushjulet.
+
+SPACE - Slå på/av wireframe.
+
+F - Slå på/av distance fog.
+
+C - Slå på/av tidsberoende displacement map (C som i crazy-mode).
+
+B - Slå på/av bounding boxes för de olika blocken.
